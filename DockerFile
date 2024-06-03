@@ -1,0 +1,2 @@
+ADD target/pdf.jar pdf-api.jar
+ENTRYPOINT ["java","-jar","/pdf.jar"]
